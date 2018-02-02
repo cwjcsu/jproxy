@@ -12,19 +12,13 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <!-- 这个jar包替换了类ch.qos.logback.core.util.ContextUtil -->
-            <artifactId>logback-core-patch</artifactId>
+            <artifactId>logback-core</artifactId>
             <version>1.0.6</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.0.6</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>ch.qos.logback</groupId>
-                    <artifactId>logback-core</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
