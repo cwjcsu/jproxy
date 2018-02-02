@@ -45,7 +45,8 @@
             <groupId>tanukisoft</groupId>
             <artifactId>wrapper</artifactId>
             <version>3.5.30</version>
-            <scope>provided</scope>
+            <scope>system</scope>
+            <systemPath>${basedir}/src/main/assets/wrapper/lib/wrapper.jar</systemPath>
         </dependency>
     </dependencies>
 
